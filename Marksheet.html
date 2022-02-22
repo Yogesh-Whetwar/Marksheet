@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: center;
+            background: rgb(217, 241, 241);
+            height: 100px;
+        }
+        @keyframes iet {
+            from{
+                height: 80px;
+            }to{
+                height: 90px;
+            }
+        }
+        h1{
+            color: rgb(7, 182, 182);
+            position: relative;
+            left: 200px;
+            top: 5px;
+        }  
+        img{
+            height: 80px;
+            position: relative;
+            top: 5px;
+            animation-name:iet;
+            animation-duration:1.5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count:infinite;
+        }
+        p1{  
+         position: relative;
+         right: 300px;
+         font-size: 28px;
+         color: rgb(7, 182, 182);
+        }
+        p2{
+           position: relative;  
+           top: 62px; 
+           right: 580px;
+           font-size: 22px;
+           color: rgb(39, 170, 164);
+        }
+          #name {
+              position: relative;
+              top: -35px;
+              left: -100px;
+          }
+          p3,#adm{
+              position: relative;
+              top: -35px;
+              left: 300px;
+          }
+          p4,#Fname{
+              position: relative;
+              float: left;
+          }
+          p5,#Eno{
+              position: relative;
+              right: 18px;
+          }
+          #Mname{
+              position: relative;
+              top: -35px;
+              left: 140px;
+          }
+          p6,#Rno{
+              position: relative;
+              left: 595px;
+              top: -35px;
+          }
+          p7,p8{
+              position: relative;
+             left: -430px;
+          }
+         
+          table td{
+              border: 2px solid black;
+              margin: 10px;
+              padding: 0px 62.5px;
+              text-align: center;
+              
+          }
+          p9{
+              position: relative;
+              top: 8px;
+              left: 1035px;
+          }
+          p10{
+              position: relative;
+              top: 35px;
+              left: 690px;
+          } 
+          .container{
+              border: 2px solid black;
+              height: 760px;
+          }
+          p11{
+              position: relative;
+              top: 60px;
+              left: -80px;
+              border: 2px solid black;
+          }  
+          #t2 td{
+              position: relative;
+              top: 80px;
+              padding: 0px 65.8px;
+          }
+          footer{
+              height: 130px;
+              border: 2px solid black;
+          }  
+          p13{
+              position: relative;
+              left: 250px;
+          }
+          p14{
+              position: relative;
+              left: 500px;
+          }     
+               p15{
+              position: relative;
+              left:750px;
+          }
+          p16{
+              position: relative;
+              top: 80px;
+              left: -700px;
+              font-size: 20px;
+          }
+          p17{
+              position: relative;
+              top: 80px;
+              font-size: 20px;
+              left: -220px;
+          }
+          p18{
+              position: relative;
+              top: 80px;
+              left: 300px;
+              font-size: 20px;
+          }
+            </style>
+</head>
+<body>
+    <header> 
+        <div class="box"></div>
+        <img src="iet.png" alt="IETDAVV">
+        <h1><b>Institute Of Engineering And Technology</b></h1>
+        <p1>Devi Ahilya VishvaVidyalya, Indore</p1>
+         <p2>Grade Sheet</p2>
+    </header>
+   <main>
+       <div class="container">
+           <form action="">
+               <p>COURSE/BRANCH: B.E(4YDC) INFORMAION TECHNOLOGY FIRST YEAR SEM-B(2020)</p>
+               <p>NAME OF THE STUDENT: </p>
+               <input type="text" placeholder="Enter Name Here" id="name">
+               <p3>ADMISSION YEAR:</p3>
+               <input type="number" placeholder="Enter Year here" id="adm">
+               <p4>FATHERS NAME:</p4>
+               <input type="text" placeholder="Enter fName Here" id="Fname">
+               <p5>ENROLLMENT NO.:</p5>
+               <input type="text" placeholder="Enter Enroll No." id="Eno">
+               <p>MOTHERS NAME:</p>
+               <input type="text" placeholder="Enter MName Here" id="Mname">
+               <p6>ROLL NO.:</p6>
+               <input type="text" placeholder="Enter roll No." id="Rno">
+               <p7>EXAMINATION: APR-MAY 2021</p7>
+               <P8>SEMESTER:2</P8>
+               <div class="TABLE">
+                   <table>
+                       <tr>
+                           <td rowspan="2">COURSE CODE</td>
+                           <td rowspan="2">COURSE TITLE</td>
+                           <td colspan="3" >THEORY</td>
+                           <td colspan="3" >PRACTICAL</td>
+                       </tr>
+                       <tr>
+                           <td>Grade</td>
+                           <td>Credits</td>
+                           <td>Credit Points</td>
+                           <td>Grade</td>
+                           <td>Credits</td>
+                           <td>Credit Points</td>
+                       </tr>
+                       <tr>
+                        <td>AMR2C1</td>
+                        <td>Applied Mathematics-II</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>--</td>
+                        <td>--</td>
+                        <td>--</td>
+                       </tr>
+                       <tr>
+                        <td>APR2C2</td>
+                        <td>Applied Physics</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>4</td>
+                        <td>A+</td>
+                        <td>40</td>
+                       </tr>
+                       <tr>
+                        <td>MER2C3</td>
+                        <td>Engineering Drawing</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>4</td>
+                        <td>A</td>
+                        <td>40</td>
+                       </tr>
+                       <tr>
+                        <td>EIR2C4</td>
+                        <td>Electrical Engineering</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>4</td>
+                        <td>O</td>
+                        <td>40</td>
+                       </tr>
+                       <tr>
+                        <td>COR2C5</td>
+                        <td>Computer Praogramming</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>--</td>
+                        <td>A+</td>
+                        <td>40</td>
+                       </tr>
+                       <tr>
+                        <td>SSR2S2</td>
+                        <td>Humanities</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>--</td>
+                        <td>--</td>
+                        <td>--</td>
+                       </tr>
+                       <tr>
+                        <td>BER2V2</td>
+                        <td>Comprehensive Viva</td>
+                        <td>O</td>
+                        <td>4</td>
+                        <td>40</td>
+                        <td>--</td>
+                        <td>--</td>
+                        <td>40</td>
+                       </tr>
+                   </table>
+               </div>
+               <p9>TOTAL CREDIT POINTS(THEORY+PRACTICAL): 200</p9>
+               <p10>SEMESTER GRADE POINT AVERAGE(SGPA): 9.99</p10>
+               <hr2>
+                
+               <p11>SEMESTER WISE DETAILS OF RESULT</p11>
+               <table id="t2">
+                   <tr>
+                       <td>SEMESTER</td>
+                       <td>I</td>
+                       <td>II</td>
+                       <td>III</td>
+                       <td>IV</td>
+                       <td>V</td>
+                       <td>VI</td>
+                       <td>VII</td>
+                       <td>VIII</td>
+                   </tr>
+                   <tr>
+                       <td>CREDITS</td>
+                       <td>40</td>
+                       <td>40</td>
+                       <td>--</td>
+                       <td>--</td>
+                       <td>--</td>
+                       <td>--</td>
+                       <td>--</td>
+                       <td>--</td>
+            
+                   </tr> <tr>
+                    <td>SGPA</td>
+                    <td>9.00</td>
+                    <td>9.57</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+        
+                </tr> <tr>
+                    <td>CGPA</td>
+                    <td>9.95</td>
+                    <td>9.87</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr> <tr>
+                    <td>ATTEMPT</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr> <tr>
+                    <td>RESULT</td>
+                    <td>PASS</td>
+                    <td>PASS</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+               </table>
+           </form>
+       </div>
+   </main>
+   <footer>
+       <p12>CGPA:Cummulative Grade Point Average</p12>
+       <p13>Equivalent Percentage=CGPA*10</p13>
+       <p14>Ci:No. of credits</p14>
+       <p15>Gi:Grade Value</p15>
+       <p16>GradeCard Issuing Date:28-08-2021</p16>
+       <p17>Coordinator</p17>
+       <p18>Director</p18>
+   </footer>
+</body>
+</html>
